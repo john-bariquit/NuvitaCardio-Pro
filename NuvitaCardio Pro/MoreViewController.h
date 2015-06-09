@@ -1,15 +1,13 @@
 //
-//  FirstViewController.h
+//  MoreViewController.h
 //  NuvitaCardio Pro
 //
 //  Created by John Bariquit on 5/13/15.
 //  Copyright (c) 2015 John Bariquit. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Globals.h"
 
-@interface FirstViewController : UIViewController
-
+@interface MoreViewController : UIViewController
 
 @end
-

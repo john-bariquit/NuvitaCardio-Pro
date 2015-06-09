@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  StatViewController.h
 //  NuvitaCardio Pro
 //
 //  Created by John Bariquit on 5/13/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface StatViewController : UIViewController
 
 @end
-

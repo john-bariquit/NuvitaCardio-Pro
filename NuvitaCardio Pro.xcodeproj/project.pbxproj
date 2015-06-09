@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		52430EDC1B03255E00BA2946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430EDB1B03255E00BA2946 /* main.m */; };
 		52430EDF1B03255E00BA2946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430EDE1B03255E00BA2946 /* AppDelegate.m */; };
-		52430EE21B03255E00BA2946 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430EE11B03255E00BA2946 /* FirstViewController.m */; };
-		52430EE51B03255E00BA2946 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430EE41B03255E00BA2946 /* SecondViewController.m */; };
 		52430EE81B03255E00BA2946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52430EE61B03255E00BA2946 /* Main.storyboard */; };
 		52430EEA1B03255E00BA2946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52430EE91B03255E00BA2946 /* Images.xcassets */; };
 		52430EED1B03255E00BA2946 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52430EEB1B03255E00BA2946 /* LaunchScreen.xib */; };
 		52430EF91B03255E00BA2946 /* NuvitaCardio_ProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430EF81B03255E00BA2946 /* NuvitaCardio_ProTests.m */; };
+		52430F041B0327DF00BA2946 /* StatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430F031B0327DF00BA2946 /* StatViewController.m */; };
+		52430F071B03295400BA2946 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430F061B03295400BA2946 /* GraphViewController.m */; };
+		52430F0A1B03296300BA2946 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430F091B03296300BA2946 /* MapViewController.m */; };
+		52430F0D1B03297100BA2946 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430F0C1B03297100BA2946 /* HistoryViewController.m */; };
+		52430F101B032A9400BA2946 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430F0F1B032A9400BA2946 /* MoreViewController.m */; };
+		52430F161B0342FB00BA2946 /* ClassHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 52430F151B0342FB00BA2946 /* ClassHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +37,25 @@
 		52430EDB1B03255E00BA2946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52430EDD1B03255E00BA2946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52430EDE1B03255E00BA2946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52430EE01B03255E00BA2946 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		52430EE11B03255E00BA2946 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		52430EE31B03255E00BA2946 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		52430EE41B03255E00BA2946 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		52430EE71B03255E00BA2946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52430EE91B03255E00BA2946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52430EEC1B03255E00BA2946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		52430EF21B03255E00BA2946 /* NuvitaCardio ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NuvitaCardio ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52430EF71B03255E00BA2946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52430EF81B03255E00BA2946 /* NuvitaCardio_ProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NuvitaCardio_ProTests.m; sourceTree = "<group>"; };
+		52430F021B0327DF00BA2946 /* StatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatViewController.h; sourceTree = "<group>"; };
+		52430F031B0327DF00BA2946 /* StatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatViewController.m; sourceTree = "<group>"; };
+		52430F051B03295400BA2946 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		52430F061B03295400BA2946 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		52430F081B03296300BA2946 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		52430F091B03296300BA2946 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		52430F0B1B03297100BA2946 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		52430F0C1B03297100BA2946 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		52430F0E1B032A9400BA2946 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		52430F0F1B032A9400BA2946 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		52430F111B03313100BA2946 /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		52430F141B0342FB00BA2946 /* ClassHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassHelpers.h; sourceTree = "<group>"; };
+		52430F151B0342FB00BA2946 /* ClassHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassHelpers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,14 +97,22 @@
 		52430ED81B03255E00BA2946 /* NuvitaCardio Pro */ = {
 			isa = PBXGroup;
 			children = (
+				52430F121B0342FA00BA2946 /* Tools */,
 				52430EDD1B03255E00BA2946 /* AppDelegate.h */,
 				52430EDE1B03255E00BA2946 /* AppDelegate.m */,
-				52430EE01B03255E00BA2946 /* FirstViewController.h */,
-				52430EE11B03255E00BA2946 /* FirstViewController.m */,
-				52430EE31B03255E00BA2946 /* SecondViewController.h */,
-				52430EE41B03255E00BA2946 /* SecondViewController.m */,
-				52430EE61B03255E00BA2946 /* Main.storyboard */,
+				52430F021B0327DF00BA2946 /* StatViewController.h */,
+				52430F031B0327DF00BA2946 /* StatViewController.m */,
+				52430F051B03295400BA2946 /* GraphViewController.h */,
+				52430F061B03295400BA2946 /* GraphViewController.m */,
+				52430F081B03296300BA2946 /* MapViewController.h */,
+				52430F091B03296300BA2946 /* MapViewController.m */,
+				52430F0B1B03297100BA2946 /* HistoryViewController.h */,
+				52430F0C1B03297100BA2946 /* HistoryViewController.m */,
+				52430F0E1B032A9400BA2946 /* MoreViewController.h */,
+				52430F0F1B032A9400BA2946 /* MoreViewController.m */,
+				52430F111B03313100BA2946 /* Globals.h */,
 				52430EE91B03255E00BA2946 /* Images.xcassets */,
+				52430EE61B03255E00BA2946 /* Main.storyboard */,
 				52430EEB1B03255E00BA2946 /* LaunchScreen.xib */,
 				52430ED91B03255E00BA2946 /* Supporting Files */,
 			);
@@ -122,6 +143,23 @@
 				52430EF71B03255E00BA2946 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52430F121B0342FA00BA2946 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				52430F131B0342FB00BA2946 /* Helper */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		52430F131B0342FB00BA2946 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				52430F141B0342FB00BA2946 /* ClassHelpers.h */,
+				52430F151B0342FB00BA2946 /* ClassHelpers.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52430EE51B03255E00BA2946 /* SecondViewController.m in Sources */,
+				52430F041B0327DF00BA2946 /* StatViewController.m in Sources */,
+				52430F071B03295400BA2946 /* GraphViewController.m in Sources */,
+				52430F161B0342FB00BA2946 /* ClassHelpers.m in Sources */,
+				52430F0A1B03296300BA2946 /* MapViewController.m in Sources */,
 				52430EDF1B03255E00BA2946 /* AppDelegate.m in Sources */,
-				52430EE21B03255E00BA2946 /* FirstViewController.m in Sources */,
 				52430EDC1B03255E00BA2946 /* main.m in Sources */,
+				52430F101B032A9400BA2946 /* MoreViewController.m in Sources */,
+				52430F0D1B03297100BA2946 /* HistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

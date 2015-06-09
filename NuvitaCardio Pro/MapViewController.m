@@ -1,22 +1,22 @@
 //
-//  SecondViewController.m
+//  MapViewController.m
 //  NuvitaCardio Pro
 //
 //  Created by John Bariquit on 5/13/15.
 //  Copyright (c) 2015 John Bariquit. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "MapViewController.h"
 
-@interface SecondViewController ()
+@interface MapViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation MapViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
